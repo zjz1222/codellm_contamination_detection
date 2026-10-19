@@ -3,6 +3,32 @@ message: "Please cite the accompanying paper in Findings of EMNLP 2026."
 type: software
 title: "CodeMIA: Syntax-Aware Detection of Training Data Contamination in Code LLMs"
 authors:
-  - name: "Anonymous contributors"
+  - family-names: Zhang
+    given-names: Jiazheng
+  - family-names: Liu
+    given-names: Cheng
+  - family-names: Cheng
+    given-names: Long
+  - family-names: Li
+    given-names: Xiaowei
+  - family-names: Li
+    given-names: Huawei
 url: "https://openreview.net/forum?id=oTuiIJUzzv"
 repository-code: "https://github.com/zjz1222/codellm_contamination_detection"
+preferred-citation:
+  type: conference-paper
+  title: "Syntax-Aware Detection of Training Data Contamination in Code LLMs"
+  authors:
+    - family-names: Zhang
+      given-names: Jiazheng
+    - family-names: Liu
+      given-names: Cheng
+    - family-names: Cheng
+      given-names: Long
+    - family-names: Li
+      given-names: Xiaowei
+    - family-names: Li
+      given-names: Huawei
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  year: 2026
+  url: "https://openreview.net/forum?id=oTuiIJUzzv"

@@ -66,3 +66,17 @@ python scripts/package_release.py --output-dir dist
 ```
 
 Data sources and redistribution notes are in [THIRD_PARTY.md](THIRD_PARTY.md). A code license has not been selected.
+
+## Citation
+
+If you use this code or dataset, please cite:
+
+```bibtex
+@inproceedings{zhang2026syntaxaware,
+  title={Syntax-Aware Detection of Training Data Contamination in Code {LLM}s},
+  author={Zhang, Jiazheng and Liu, Cheng and Cheng, Long and Li, Xiaowei and Li, Huawei},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2026},
+  year={2026},
+  url={https://openreview.net/forum?id=oTuiIJUzzv}
+}
+```
