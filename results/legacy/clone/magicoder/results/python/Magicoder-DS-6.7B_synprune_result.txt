@@ -1,0 +1,20 @@
+======== original ========
+method,auc,accuracy,tpr01
+synprune,79.1828%,73.3000%,4.4000%
+
+======== Type I ========
+method,auc,accuracy,tpr01
+synprune,78.6368%,72.3000%,5.8000%
+
+======== Type II ========
+method,auc,accuracy,tpr01
+synprune,76.2208%,70.6000%,3.2000%
+
+======== Type III ========
+method,auc,accuracy,tpr01
+synprune,75.3456%,70.6000%,1.2000%
+
+======== AVG ========
+method,auc,accuracy,tpr01
+synprune,76.5464%,70.5250%,6.2000%
+

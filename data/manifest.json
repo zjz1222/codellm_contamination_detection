@@ -1,0 +1,719 @@
+{
+  "description": "Frozen main-experiment artifacts. Text records are anonymized; numeric feature caches retain historical values.",
+  "artifacts": [
+    {
+      "path": "data/clone/starcoder/input/cpp/starcoderbase_val_data_clone.jsonl",
+      "source": "data/starcoder/input/cpp/starcoderbase_val_data_clone.jsonl",
+      "bytes": 31336911,
+      "sha256": "62b01f81819a351b461700483cb0b3234108b9c2dba84fc7392054c18446f95e",
+      "source_sha256": "55903be0bd55f86a9255d32e3d0c45cb805c7c3adf73daca24d02eff85273555",
+      "pre_privacy_sha256": "55903be0bd55f86a9255d32e3d0c45cb805c7c3adf73daca24d02eff85273555",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/starcoder/input/cpp/starcoderbase-7b_val_data_clone.jsonl",
+      "source": "data/starcoder/input/cpp/starcoderbase-7b_val_data_clone.jsonl",
+      "bytes": 32195140,
+      "sha256": "a9bac5e5d74396cbc38bbb3c20d6b0eb9a2a5d0a1720ee563f85c93d48999181",
+      "source_sha256": "8f475f77381da515e777a37db1b00a00cf0f16f6fdc0e42ed5b1e5650e2683ac",
+      "pre_privacy_sha256": "8f475f77381da515e777a37db1b00a00cf0f16f6fdc0e42ed5b1e5650e2683ac",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/starcoder/input/cpp/starcoderbase-7b_train_data_clone.jsonl",
+      "source": "data/starcoder/input/cpp/starcoderbase-7b_train_data_clone.jsonl",
+      "bytes": 33703363,
+      "sha256": "2dd3967b18befc7726ffb708777883630390e55d03f24a7e2418ee022b463dc6",
+      "source_sha256": "80ee168700a39fd7db689dcd5f0d7f6d0f77fd21ee8066d56da323c2d247d6da",
+      "pre_privacy_sha256": "80ee168700a39fd7db689dcd5f0d7f6d0f77fd21ee8066d56da323c2d247d6da",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/starcoder/input/cpp/starcoderbase_train_data_clone.jsonl",
+      "source": "data/starcoder/input/cpp/starcoderbase_train_data_clone.jsonl",
+      "bytes": 32420661,
+      "sha256": "c216df535081f719d91c01ebeb64ee276a163e46c17ea9c072304268aab9f2c9",
+      "source_sha256": "6b461a3328610bd676dfd82f4d4d776335d49d5f2cb51455dd67955d6c0d7ffa",
+      "pre_privacy_sha256": "6b461a3328610bd676dfd82f4d4d776335d49d5f2cb51455dd67955d6c0d7ffa",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/starcoder/input/python/starcoderbase_val_data_clone.jsonl",
+      "source": "data/starcoder/input/python/starcoderbase_val_data_clone.jsonl",
+      "bytes": 27682576,
+      "sha256": "a32454a6d41e3481fa93b6820e4ae8028c98a82938758be782ebae58194e1ebc",
+      "source_sha256": "07dbd45b36a6297520bcb6fd3f27050ad769bfea881a9cf2d0255d7c2cd338d7",
+      "pre_privacy_sha256": "07dbd45b36a6297520bcb6fd3f27050ad769bfea881a9cf2d0255d7c2cd338d7",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/starcoder/input/python/starcoderbase-7b_val_data_clone.jsonl",
+      "source": "data/starcoder/input/python/starcoderbase-7b_val_data_clone.jsonl",
+      "bytes": 29280453,
+      "sha256": "9ef73e42a2bd30073ab8378b4d03276ab235dbd051e4940f42c23fb5beb7f7c4",
+      "source_sha256": "74bda7afe3a937622c38d63241eb4918b3b2e2a016abb481c8983ce8d9421bd1",
+      "pre_privacy_sha256": "74bda7afe3a937622c38d63241eb4918b3b2e2a016abb481c8983ce8d9421bd1",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/starcoder/input/python/starcoderbase-7b_train_data_clone.jsonl",
+      "source": "data/starcoder/input/python/starcoderbase-7b_train_data_clone.jsonl",
+      "bytes": 30879260,
+      "sha256": "54fba34d500472fc775960b09e503e81b8a38609fb8aad340780d586a09febe1",
+      "source_sha256": "8d77d561e8516cb04e707ce85b1fbd95d6b681b7cfcc75173205999b7da92049",
+      "pre_privacy_sha256": "8d77d561e8516cb04e707ce85b1fbd95d6b681b7cfcc75173205999b7da92049",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/starcoder/input/python/starcoderbase_train_data_clone.jsonl",
+      "source": "data/starcoder/input/python/starcoderbase_train_data_clone.jsonl",
+      "bytes": 29987533,
+      "sha256": "e8b470f0d075698bd49808c8260ac8cc8b47ea2a779cfc6b072fbcc9526dcf45",
+      "source_sha256": "aa601f0222c85f22542de9866d740ea2ccfcc3f92e3d81cf858fdb895e15206c",
+      "pre_privacy_sha256": "aa601f0222c85f22542de9866d740ea2ccfcc3f92e3d81cf858fdb895e15206c",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/octopack/input/cpp/octogeex_train_data_clone.jsonl",
+      "source": "data/octopack/input/cpp/octogeex_train_data_clone.jsonl",
+      "bytes": 20419845,
+      "sha256": "b8489ee7c86def27afe3c0d78516cc0ca21f4d8e75e70aba16f39ee25efc57e8",
+      "source_sha256": "2046ad7787725953a0160e8c9856502a8fb72fff42bb488613aa84cd1f24fa28",
+      "pre_privacy_sha256": "2046ad7787725953a0160e8c9856502a8fb72fff42bb488613aa84cd1f24fa28",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/octopack/input/cpp/octogeex_val_data_clone.jsonl",
+      "source": "data/octopack/input/cpp/octogeex_val_data_clone.jsonl",
+      "bytes": 12158320,
+      "sha256": "c84976c9e011ef1b67f95f30105345a65ca2e73b18e9f12497c7422414c15038",
+      "source_sha256": "db1909ed9f34a8ff5f849bb1b79455c41145ad3b6b1ecb590c3e8172b3794a0f",
+      "pre_privacy_sha256": "db1909ed9f34a8ff5f849bb1b79455c41145ad3b6b1ecb590c3e8172b3794a0f",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/octopack/input/cpp/octocoder_val_data_clone.jsonl",
+      "source": "data/octopack/input/cpp/octocoder_val_data_clone.jsonl",
+      "bytes": 13814551,
+      "sha256": "cfe9763be74bdcd8553efa74e58f185639ebe62a820f35a630164ca42a4df789",
+      "source_sha256": "7622b19177d99e75ea15c7b291aeeb4bfca1e84faa87bd8e00cc3ec58914fd0c",
+      "pre_privacy_sha256": "7622b19177d99e75ea15c7b291aeeb4bfca1e84faa87bd8e00cc3ec58914fd0c",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/octopack/input/cpp/octocoder_train_data_clone.jsonl",
+      "source": "data/octopack/input/cpp/octocoder_train_data_clone.jsonl",
+      "bytes": 7555953,
+      "sha256": "f01828306befbbd8054c493306fad3098629ac04d4a00a6b0c7d9f3129a54c53"
+    },
+    {
+      "path": "data/clone/octopack/input/python/octogeex_train_data_clone.jsonl",
+      "source": "data/octopack/input/python/octogeex_train_data_clone.jsonl",
+      "bytes": 15170043,
+      "sha256": "a80a6aaf3e4443ac2e238ba7793cc13567f21d694ce4b3cefca4289ce2bdfe72",
+      "source_sha256": "e73635a7bdbe7ab16c9efa32858004597b565d70eea9124a6ca3d861c6703b6b",
+      "pre_privacy_sha256": "e73635a7bdbe7ab16c9efa32858004597b565d70eea9124a6ca3d861c6703b6b",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/octopack/input/python/octogeex_val_data_clone.jsonl",
+      "source": "data/octopack/input/python/octogeex_val_data_clone.jsonl",
+      "bytes": 13373210,
+      "sha256": "6c7b7eb39c8c1cf266acfac954574811dcabee0011583dba1d67ce3e9650fe0b",
+      "source_sha256": "bcc51eb84536087e7c1d6ab0cfdaeb67ec970bc405d7be967567aab53543536b",
+      "pre_privacy_sha256": "bcc51eb84536087e7c1d6ab0cfdaeb67ec970bc405d7be967567aab53543536b",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/octopack/input/python/octocoder_val_data_clone.jsonl",
+      "source": "data/octopack/input/python/octocoder_val_data_clone.jsonl",
+      "bytes": 14724338,
+      "sha256": "4589b3ef29115da9968ace6cd11281d21338a3e8f9d36657a8a8af14caa54596",
+      "source_sha256": "11ed1819dc5768833862ae31e6ba2e7e4dd381e84ecec5f24049c94b86fb5238",
+      "pre_privacy_sha256": "11ed1819dc5768833862ae31e6ba2e7e4dd381e84ecec5f24049c94b86fb5238",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/octopack/input/python/octocoder_train_data_clone.jsonl",
+      "source": "data/octopack/input/python/octocoder_train_data_clone.jsonl",
+      "bytes": 15460831,
+      "sha256": "af3fb701ed0490d09909631e1443ca7f60f9ecbacf01bf9f6a751b7673b8984c",
+      "source_sha256": "8664cfdb0440ccbc85cd8dcdcb05413f3c3547208f915c6af65b84698ed242ac",
+      "pre_privacy_sha256": "8664cfdb0440ccbc85cd8dcdcb05413f3c3547208f915c6af65b84698ed242ac",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/opencoder/input/cpp/OpenCoder-1.5B-Instruct_val_data_clone.jsonl",
+      "source": "data/opencoder/input/cpp/OpenCoder-1.5B-Instruct_val_data_clone.jsonl",
+      "bytes": 31215220,
+      "sha256": "be56fe74f8c0907a6102ee984f59c503fc4602b5192378afb299afb22efcc275",
+      "source_sha256": "acb564332cfb1fa8299d95fa55dc1d1d7a619dab1ae5d0522774a5d87cd45c3b",
+      "pre_privacy_sha256": "acb564332cfb1fa8299d95fa55dc1d1d7a619dab1ae5d0522774a5d87cd45c3b",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/opencoder/input/cpp/OpenCoder-1.5B-Instruct_train_data_clone.jsonl",
+      "source": "data/opencoder/input/cpp/OpenCoder-1.5B-Instruct_train_data_clone.jsonl",
+      "bytes": 14952343,
+      "sha256": "6bf183d3889ec989450aef1fe0d2bf728f5193b029a26224d76f88d76871e8d8",
+      "source_sha256": "5a18d023d58948f75524cea9a8d57fb463c0d0ff6054e96df02ecd78fda5ffb4",
+      "pre_privacy_sha256": "5a18d023d58948f75524cea9a8d57fb463c0d0ff6054e96df02ecd78fda5ffb4",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/opencoder/input/cpp/OpenCoder-8B-Instruct_train_data_clone.jsonl",
+      "source": "data/opencoder/input/cpp/OpenCoder-8B-Instruct_train_data_clone.jsonl",
+      "bytes": 15802413,
+      "sha256": "3779df8e6f2ce4948d1a27ff8457545917cac67d16bee0e90caf1d7103bae2bc",
+      "source_sha256": "36e05d7a204f0f26a931dfa306e2003ca1ea56c14a78304be333f40b0fd36191",
+      "pre_privacy_sha256": "36e05d7a204f0f26a931dfa306e2003ca1ea56c14a78304be333f40b0fd36191",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/opencoder/input/cpp/OpenCoder-8B-Instruct_val_data_clone.jsonl",
+      "source": "data/opencoder/input/cpp/OpenCoder-8B-Instruct_val_data_clone.jsonl",
+      "bytes": 20975537,
+      "sha256": "a75a97fcc7602c204d147e6d3e29b492d70aceef737dc9d53ad0feed96ae7dee",
+      "source_sha256": "3139a81702ef6b182406edff11ed5d399f3030f0e193d51070b4b5ef62913b65",
+      "pre_privacy_sha256": "3139a81702ef6b182406edff11ed5d399f3030f0e193d51070b4b5ef62913b65",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/opencoder/input/python/OpenCoder-1.5B-Instruct_val_data_clone.jsonl",
+      "source": "data/opencoder/input/python/OpenCoder-1.5B-Instruct_val_data_clone.jsonl",
+      "bytes": 8655093,
+      "sha256": "7af302ef9a2a4804add36eebabe9d6ebf8958735101c3973c4319e01977046e5",
+      "source_sha256": "a8609a69c49272d81359cee6363c4069d14f5e97a92cb417eb8237a252313db5",
+      "pre_privacy_sha256": "a8609a69c49272d81359cee6363c4069d14f5e97a92cb417eb8237a252313db5",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/opencoder/input/python/OpenCoder-1.5B-Instruct_train_data_clone.jsonl",
+      "source": "data/opencoder/input/python/OpenCoder-1.5B-Instruct_train_data_clone.jsonl",
+      "bytes": 7875118,
+      "sha256": "3c9839cf2f3e337a97ef2db5dcd0cafaa41648eb15e18ee4de5a76fa3ec26e2b",
+      "source_sha256": "914f698a572912aab330576c2a8bf5367da257889c62b6a08ad7adff9bc50f44",
+      "pre_privacy_sha256": "914f698a572912aab330576c2a8bf5367da257889c62b6a08ad7adff9bc50f44",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/opencoder/input/python/OpenCoder-8B-Instruct_train_data_clone.jsonl",
+      "source": "data/opencoder/input/python/OpenCoder-8B-Instruct_train_data_clone.jsonl",
+      "bytes": 8409772,
+      "sha256": "7a239cc5fc942253c234e7cc6714c9686126015d2617682325b4e46c9cb78563",
+      "source_sha256": "24dbf90e183413faca681d21049f71628e38417007fde3a23c5740cfdf9b687c",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved.",
+      "pre_privacy_sha256": "c173623d1adbead69366c22fe5b06a0addd174fb5a921f47499cfca53dfe096f"
+    },
+    {
+      "path": "data/clone/opencoder/input/python/OpenCoder-8B-Instruct_val_data_clone.jsonl",
+      "source": "data/opencoder/input/python/OpenCoder-8B-Instruct_val_data_clone.jsonl",
+      "bytes": 8214929,
+      "sha256": "bb088bd9f2bd719e17af14e35cc60d31c249ce11bf0aab6d9388ecd7f55eb960",
+      "source_sha256": "7d3a09133af1fcc683671882529adecbeba54c0900d705f3d287632264b4bf87",
+      "pre_privacy_sha256": "7d3a09133af1fcc683671882529adecbeba54c0900d705f3d287632264b4bf87",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/magicoder/input/cpp/Magicoder-DS-6.7B_val_data_clone.jsonl",
+      "source": "data/magicoder/input/cpp/Magicoder-DS-6.7B_val_data_clone.jsonl",
+      "bytes": 6650173,
+      "sha256": "daeacbbf5b39c7b25a0e599e7408d5e6e6fdf2ccf5db39cf3b65b60f83743de2"
+    },
+    {
+      "path": "data/clone/magicoder/input/cpp/Magicoder-CL-7B_train_data_clone.jsonl",
+      "source": "data/magicoder/input/cpp/Magicoder-CL-7B_train_data_clone.jsonl",
+      "bytes": 7968074,
+      "sha256": "c9fcbf16be079141d8b99e228057d70dec3d2e2c1f9c5340a690990b41853c39",
+      "source_sha256": "ce043c8db962597c50bf4be892157de9a6b447e3c7833a20a8b44f9b20758573",
+      "pre_privacy_sha256": "ce043c8db962597c50bf4be892157de9a6b447e3c7833a20a8b44f9b20758573",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/magicoder/input/cpp/Magicoder-CL-7B_val_data_clone.jsonl",
+      "source": "data/magicoder/input/cpp/Magicoder-CL-7B_val_data_clone.jsonl",
+      "bytes": 6468627,
+      "sha256": "df4134e2a45469455541d043dc004388bdb97a278919bc0f8265277ab905f6d8",
+      "source_sha256": "c8be77e05234184d968a04ac4c75213957dbafc0db69a95b43ef758a25e33aa7",
+      "pre_privacy_sha256": "c8be77e05234184d968a04ac4c75213957dbafc0db69a95b43ef758a25e33aa7",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/magicoder/input/cpp/Magicoder-DS-6.7B_train_data_clone.jsonl",
+      "source": "data/magicoder/input/cpp/Magicoder-DS-6.7B_train_data_clone.jsonl",
+      "bytes": 7461134,
+      "sha256": "8c419e4d2dffee5957741505e92d1b78c2194c1aefcd3b6b36c75bd95c961a12",
+      "source_sha256": "bca56062d854ab5ea9bea5edaec385ea2531f565b173e8824fd29ecd18cd3026",
+      "pre_privacy_sha256": "bca56062d854ab5ea9bea5edaec385ea2531f565b173e8824fd29ecd18cd3026",
+      "sanitization": "Identifiers, private paths and credential-like text redacted; row order, labels and numeric feature caches preserved."
+    },
+    {
+      "path": "data/clone/magicoder/input/python/Magicoder-DS-6.7B_val_data_clone.jsonl",
+      "source": "data/magicoder/input/python/Magicoder-DS-6.7B_val_data_clone.jsonl",
+      "bytes": 6593844,
+      "sha256": "7fda6eadf9028c81b8d0d510e75f1b28ad17775fa20789bb2d72d1db69c01b3c",
+      "source_sha256": "7115af09c70637cff26b6baf5f03c94572fb94eb9b1b627977cc106d93ad5cad",
+      "pre_privacy_sha256": "7115af09c70637cff26b6baf5f03c94572fb94eb9b1b627977cc106d93ad5cad",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/magicoder/input/python/Magicoder-CL-7B_train_data_clone.jsonl",
+      "source": "data/magicoder/input/python/Magicoder-CL-7B_train_data_clone.jsonl",
+      "bytes": 6301961,
+      "sha256": "d9e4a752f165e3c57d0ac04c1d6f24f37f9a0f06be2adf9c61238c1baf5bee65",
+      "source_sha256": "19ac7553d432b66fda42847b277ae504766d46090e5c2d3078c34ece573b6697",
+      "pre_privacy_sha256": "19ac7553d432b66fda42847b277ae504766d46090e5c2d3078c34ece573b6697",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/magicoder/input/python/Magicoder-CL-7B_val_data_clone.jsonl",
+      "source": "data/magicoder/input/python/Magicoder-CL-7B_val_data_clone.jsonl",
+      "bytes": 6764744,
+      "sha256": "f169b7da5308cda54ae2d79e09edf7dbfe81bf14d490ed9bb8b0c1c46c2fd462",
+      "source_sha256": "5471d07e99074dcb4683d20cd4edb24e4f0cd14eb1f2185fab38254630ce2c39",
+      "pre_privacy_sha256": "5471d07e99074dcb4683d20cd4edb24e4f0cd14eb1f2185fab38254630ce2c39",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/clone/magicoder/input/python/Magicoder-DS-6.7B_train_data_clone.jsonl",
+      "source": "data/magicoder/input/python/Magicoder-DS-6.7B_train_data_clone.jsonl",
+      "bytes": 6528950,
+      "sha256": "e06a42e9f415717e91111539824f1e7d951b3970cdea42c06aadac83a639fe75",
+      "source_sha256": "027059fb8197a047824e0f289dc81b44b2482be5535daf98d4743214636f2f30",
+      "pre_privacy_sha256": "027059fb8197a047824e0f289dc81b44b2482be5535daf98d4743214636f2f30",
+      "sanitization": "Private identifiers, paths, contacts and credential literals redacted; row order, labels and numeric caches preserved."
+    },
+    {
+      "path": "data/features/clone/starcoder/input_processed/cpp/starcoderbase-7b_top0.1_val_data_clone.pkl",
+      "source": "data/starcoder/input_processed/cpp/starcoderbase-7b_top0.1_val_data_clone.pkl",
+      "bytes": 1711288,
+      "sha256": "f46f0b8917c7111c8c9396778537d985775dbbc8b35da27bb066a113de815b42"
+    },
+    {
+      "path": "data/features/clone/starcoder/input_processed/cpp/starcoderbase_top0.1_train_data_clone.pkl",
+      "source": "data/starcoder/input_processed/cpp/starcoderbase_top0.1_train_data_clone.pkl",
+      "bytes": 1674967,
+      "sha256": "8e75131a49040fc61dc80a0e31c4f51fffecb8068097e3028a3002ddf134503b"
+    },
+    {
+      "path": "data/features/clone/starcoder/input_processed/cpp/starcoderbase-7b_top0.1_train_data_clone.pkl",
+      "source": "data/starcoder/input_processed/cpp/starcoderbase-7b_top0.1_train_data_clone.pkl",
+      "bytes": 1715060,
+      "sha256": "7bd5a14ccd88bb233926304bf0a21abd22f382b78525f6a5af25cf8c8db3174e"
+    },
+    {
+      "path": "data/features/clone/starcoder/input_processed/cpp/starcoderbase_top0.1_val_data_clone.pkl",
+      "source": "data/starcoder/input_processed/cpp/starcoderbase_top0.1_val_data_clone.pkl",
+      "bytes": 1671673,
+      "sha256": "4bfc00ecdfe60d42f71aebb9120d8dfa66cec42cff01f509ce7efe6afb38eb7d"
+    },
+    {
+      "path": "data/features/clone/starcoder/input_processed/python/starcoderbase-7b_top0.1_val_data_clone.pkl",
+      "source": "data/starcoder/input_processed/python/starcoderbase-7b_top0.1_val_data_clone.pkl",
+      "bytes": 1989110,
+      "sha256": "81a8e07e4e9406b081b3e80ed176266492f571cae838bb9da68ddca65c6c2c18"
+    },
+    {
+      "path": "data/features/clone/starcoder/input_processed/python/starcoderbase_top0.1_train_data_clone.pkl",
+      "source": "data/starcoder/input_processed/python/starcoderbase_top0.1_train_data_clone.pkl",
+      "bytes": 1956177,
+      "sha256": "2f7053171e2031cdeefb84879b663afd151f943028eacba7ce221fd801626cb6"
+    },
+    {
+      "path": "data/features/clone/starcoder/input_processed/python/starcoderbase-7b_top0.1_train_data_clone.pkl",
+      "source": "data/starcoder/input_processed/python/starcoderbase-7b_top0.1_train_data_clone.pkl",
+      "bytes": 1977031,
+      "sha256": "cb794d89248fa72fac034a689e5023e43c55370291ceb3986d4b455af45b4e79"
+    },
+    {
+      "path": "data/features/clone/starcoder/input_processed/python/starcoderbase_top0.1_val_data_clone.pkl",
+      "source": "data/starcoder/input_processed/python/starcoderbase_top0.1_val_data_clone.pkl",
+      "bytes": 1913985,
+      "sha256": "471720d324cb1ad29ab0c60148ab65a1aabeebc11f1ca0dd71bf5abb4521e936"
+    },
+    {
+      "path": "data/features/clone/octopack/input_processed/cpp/octogeex_top0.1_train_data_clone.pkl",
+      "source": "data/octopack/input_processed/cpp/octogeex_top0.1_train_data_clone.pkl",
+      "bytes": 1127607,
+      "sha256": "296403d7a4d8027161172e6d8d1356f0e1f6a273a532b814886ff698ead326ce"
+    },
+    {
+      "path": "data/features/clone/octopack/input_processed/cpp/octocoder_top0.1_train_data_clone.pkl",
+      "source": "data/octopack/input_processed/cpp/octocoder_top0.1_train_data_clone.pkl",
+      "bytes": 1014546,
+      "sha256": "643aeda8482b02470e075e0ea821ca5f575ddbae4792995bdb7ebe623963538c"
+    },
+    {
+      "path": "data/features/clone/octopack/input_processed/cpp/octocoder_top0.1_val_data_clone.pkl",
+      "source": "data/octopack/input_processed/cpp/octocoder_top0.1_val_data_clone.pkl",
+      "bytes": 1035959,
+      "sha256": "f64fedfbb1ddf2d59121d844384d57fa70e1586080cef8c48cc2added151c4e9"
+    },
+    {
+      "path": "data/features/clone/octopack/input_processed/cpp/octogeex_top0.1_val_data_clone.pkl",
+      "source": "data/octopack/input_processed/cpp/octogeex_top0.1_val_data_clone.pkl",
+      "bytes": 1159043,
+      "sha256": "a77e1a03726fb84ca4fbcc2f1206d1c7f8d8ba50ef8e6e50e4f04a14308c44a5"
+    },
+    {
+      "path": "data/features/clone/octopack/input_processed/python/octogeex_top0.1_train_data_clone.pkl",
+      "source": "data/octopack/input_processed/python/octogeex_top0.1_train_data_clone.pkl",
+      "bytes": 1797424,
+      "sha256": "e6af81a43c709d7592fab4ac37e2d65e6dd25a91c43854f097c5301eb971c1d0"
+    },
+    {
+      "path": "data/features/clone/octopack/input_processed/python/octocoder_top0.1_train_data_clone.pkl",
+      "source": "data/octopack/input_processed/python/octocoder_top0.1_train_data_clone.pkl",
+      "bytes": 1620180,
+      "sha256": "605975fe8ddbf561376f19761d3bdab737fa56cda4e799d327135f4ca03c9505"
+    },
+    {
+      "path": "data/features/clone/octopack/input_processed/python/octocoder_top0.1_val_data_clone.pkl",
+      "source": "data/octopack/input_processed/python/octocoder_top0.1_val_data_clone.pkl",
+      "bytes": 1642298,
+      "sha256": "17ec10c680328eb96b701dc58d42f140e1497bbcc2c5158f297bb8d67ea60634"
+    },
+    {
+      "path": "data/features/clone/octopack/input_processed/python/octogeex_top0.1_val_data_clone.pkl",
+      "source": "data/octopack/input_processed/python/octogeex_top0.1_val_data_clone.pkl",
+      "bytes": 1817105,
+      "sha256": "bde8fab4091e46b1631e3d316fde7e74588ef506f6efa51b12f04c6d594abbfc"
+    },
+    {
+      "path": "data/features/clone/opencoder/input_processed/cpp/OpenCoder-8B-Instruct_top0.1_train_data_clone.pkl",
+      "source": "data/opencoder/input_processed/cpp/OpenCoder-8B-Instruct_top0.1_train_data_clone.pkl",
+      "bytes": 1538932,
+      "sha256": "cc04ae6a0bc2337fa9f55293ece39b395435adc9be141ed1abd0df325d2dadc2"
+    },
+    {
+      "path": "data/features/clone/opencoder/input_processed/cpp/OpenCoder-1.5B-Instruct_top0.1_val_data_clone.pkl",
+      "source": "data/opencoder/input_processed/cpp/OpenCoder-1.5B-Instruct_top0.1_val_data_clone.pkl",
+      "bytes": 1529502,
+      "sha256": "60693943751bd60922f6b23f3cdaf9fee7590e3ecb1e91acc0c96d00ca1bf1f6"
+    },
+    {
+      "path": "data/features/clone/opencoder/input_processed/cpp/OpenCoder-1.5B-Instruct_top0.1_train_data_clone.pkl",
+      "source": "data/opencoder/input_processed/cpp/OpenCoder-1.5B-Instruct_top0.1_train_data_clone.pkl",
+      "bytes": 1531745,
+      "sha256": "a5a48d9a04003390abcf62087dc24fec03b7c467dbbcf890dd0a0e3749388376"
+    },
+    {
+      "path": "data/features/clone/opencoder/input_processed/cpp/OpenCoder-8B-Instruct_top0.1_val_data_clone.pkl",
+      "source": "data/opencoder/input_processed/cpp/OpenCoder-8B-Instruct_top0.1_val_data_clone.pkl",
+      "bytes": 1550757,
+      "sha256": "11d1d8ebce7aa9f467dba05c15215e247ea845771e7ce46333e1a4fda2e7f7a5"
+    },
+    {
+      "path": "data/features/clone/opencoder/input_processed/python/OpenCoder-8B-Instruct_top0.1_train_data_clone.pkl",
+      "source": "data/opencoder/input_processed/python/OpenCoder-8B-Instruct_top0.1_train_data_clone.pkl",
+      "bytes": 1733338,
+      "sha256": "d7474d01fa8fcdead56997e3184cc3df931c61bdb57c6fc992df39895a15b852"
+    },
+    {
+      "path": "data/features/clone/opencoder/input_processed/python/OpenCoder-1.5B-Instruct_top0.1_val_data_clone.pkl",
+      "source": "data/opencoder/input_processed/python/OpenCoder-1.5B-Instruct_top0.1_val_data_clone.pkl",
+      "bytes": 1734049,
+      "sha256": "7c15ff513adcceead00c12d27f15cda0af6c28f116558e7c49928b809ebed288"
+    },
+    {
+      "path": "data/features/clone/opencoder/input_processed/python/OpenCoder-1.5B-Instruct_top0.1_train_data_clone.pkl",
+      "source": "data/opencoder/input_processed/python/OpenCoder-1.5B-Instruct_top0.1_train_data_clone.pkl",
+      "bytes": 1706412,
+      "sha256": "809ee6fb6063eea1d1a5cb2215a723cf7d18cbfe67950dfd299d6e34fadafa22"
+    },
+    {
+      "path": "data/features/clone/opencoder/input_processed/python/OpenCoder-8B-Instruct_top0.1_val_data_clone.pkl",
+      "source": "data/opencoder/input_processed/python/OpenCoder-8B-Instruct_top0.1_val_data_clone.pkl",
+      "bytes": 1711693,
+      "sha256": "4cf568bcd3d3dbc4db63b6f0f947d3345e9e41eb709940a9786d547d98216473"
+    },
+    {
+      "path": "data/features/clone/magicoder/input_processed/cpp/Magicoder-DS-6.7B_top0.1_train_data_clone.pkl",
+      "source": "data/magicoder/input_processed/cpp/Magicoder-DS-6.7B_top0.1_train_data_clone.pkl",
+      "bytes": 1465100,
+      "sha256": "0e808f17672e8e85238d282e23e228f5775842cc12de129fdb8bc65d6b5021ef"
+    },
+    {
+      "path": "data/features/clone/magicoder/input_processed/cpp/Magicoder-DS-6.7B_top0.1_val_data_clone.pkl",
+      "source": "data/magicoder/input_processed/cpp/Magicoder-DS-6.7B_top0.1_val_data_clone.pkl",
+      "bytes": 1468343,
+      "sha256": "7bfbde3b7d7f45e88a6505badac89a74e71ca44d69eee59e6e5581da7d4999d5"
+    },
+    {
+      "path": "data/features/clone/magicoder/input_processed/cpp/Magicoder-CL-7B_top0.1_train_data_clone.pkl",
+      "source": "data/magicoder/input_processed/cpp/Magicoder-CL-7B_top0.1_train_data_clone.pkl",
+      "bytes": 1460022,
+      "sha256": "19d3c97840c679d6c5585dfdc57ef7169360a75708382e629d011c015db56bdc"
+    },
+    {
+      "path": "data/features/clone/magicoder/input_processed/cpp/Magicoder-CL-7B_top0.1_val_data_clone.pkl",
+      "source": "data/magicoder/input_processed/cpp/Magicoder-CL-7B_top0.1_val_data_clone.pkl",
+      "bytes": 1441057,
+      "sha256": "8734250ea3f4038104d5fe9077fdcfd06aba827b0ed9cb6ab55afe680d857e7f"
+    },
+    {
+      "path": "data/features/clone/magicoder/input_processed/python/Magicoder-DS-6.7B_top0.1_train_data_clone.pkl",
+      "source": "data/magicoder/input_processed/python/Magicoder-DS-6.7B_top0.1_train_data_clone.pkl",
+      "bytes": 1648380,
+      "sha256": "c5675d8358b8c749717329cc14ae7e36f1f59a760ae242b9a65c389288781135"
+    },
+    {
+      "path": "data/features/clone/magicoder/input_processed/python/Magicoder-DS-6.7B_top0.1_val_data_clone.pkl",
+      "source": "data/magicoder/input_processed/python/Magicoder-DS-6.7B_top0.1_val_data_clone.pkl",
+      "bytes": 1660972,
+      "sha256": "7562f499decaf99ab96d4361c38873ee0eefeb7c0d32af5311db2061c964b1fe"
+    },
+    {
+      "path": "data/features/clone/magicoder/input_processed/python/Magicoder-CL-7B_top0.1_train_data_clone.pkl",
+      "source": "data/magicoder/input_processed/python/Magicoder-CL-7B_top0.1_train_data_clone.pkl",
+      "bytes": 1631484,
+      "sha256": "11e02ad64be3475ecc1e6323f2faf615a5666f238648111cfe9eaf141edd2091"
+    },
+    {
+      "path": "data/features/clone/magicoder/input_processed/python/Magicoder-CL-7B_top0.1_val_data_clone.pkl",
+      "source": "data/magicoder/input_processed/python/Magicoder-CL-7B_top0.1_val_data_clone.pkl",
+      "bytes": 1664761,
+      "sha256": "3e35db32d4f41c6ec0863fd730f1338478824ba510311f58b8d5c23beed58f61"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/cpp/starcoderbase-7b_full_results.txt",
+      "source": "data/starcoder/results/cpp/starcoderbase-7b_full_results.txt",
+      "bytes": 1828,
+      "sha256": "fe83ac6a89931a833d766f67db39210d0bbcebb8fe0d5228c4dc89a03b26330f"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/cpp/starcoderbase_top0.1_lightgbm_full_result.txt",
+      "source": "data/starcoder/results/cpp/starcoderbase_top0.1_lightgbm_full_result.txt",
+      "bytes": 203,
+      "sha256": "253adb1abca5d6b8d1bf6267766bcc9b8f83dbffab76120a009d6da97b63c526"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/cpp/starcoderbase-7b_top0.1_lightgbm_full_result.txt",
+      "source": "data/starcoder/results/cpp/starcoderbase-7b_top0.1_lightgbm_full_result.txt",
+      "bytes": 203,
+      "sha256": "cdca8dc142d5d06a6dee55358228eb84144b419b0646e28286fa65c9b138cc8a"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/cpp/starcoderbase_full_results.txt",
+      "source": "data/starcoder/results/cpp/starcoderbase_full_results.txt",
+      "bytes": 1827,
+      "sha256": "36b9097a5cbb0ce3412badeff7746b0742e40b12470889240a5f86d6c279c146"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/python/starcoderbase-7b_full_results.txt",
+      "source": "data/starcoder/results/python/starcoderbase-7b_full_results.txt",
+      "bytes": 1827,
+      "sha256": "accc88e353a9477e946e32c427dc8689380c2afbb7cec14499cbbf722aa4bbc9"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/python/starcoderbase_top0.1_lightgbm_full_result.txt",
+      "source": "data/starcoder/results/python/starcoderbase_top0.1_lightgbm_full_result.txt",
+      "bytes": 203,
+      "sha256": "2e447aac497f6f402bb3cbb98135ac2aeaa6ab330bff1dfa689e87de8b410407"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/python/starcoderbase_synprune_result.txt",
+      "source": "data/starcoder/results/python/starcoderbase_synprune_result.txt",
+      "bytes": 437,
+      "sha256": "61a0cf05c4aa1f859b09fcc7f9327de3557d3929e2653edcc2508902b997e4bf"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/python/starcoderbase-7b_top0.1_lightgbm_full_result.txt",
+      "source": "data/starcoder/results/python/starcoderbase-7b_top0.1_lightgbm_full_result.txt",
+      "bytes": 203,
+      "sha256": "4b9dd75dda8dc0cffca7a07fbd3072bdb3af8ca19a85ddd176fe4edfb00d9bba"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/python/starcoderbase-7b_synprune_result.txt",
+      "source": "data/starcoder/results/python/starcoderbase-7b_synprune_result.txt",
+      "bytes": 531,
+      "sha256": "be51b6620bd44a544c8c62756d666a839f90328fb41334a85fc50b56c0d03cec"
+    },
+    {
+      "path": "results/legacy/clone/starcoder/results/python/starcoderbase_full_results.txt",
+      "source": "data/starcoder/results/python/starcoderbase_full_results.txt",
+      "bytes": 1827,
+      "sha256": "d87279d804f4798a0ed18f1fbade25298c5b357282c4d0a75437e04393c90760"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/cpp/octogeex_full_results.txt",
+      "source": "data/octopack/results/cpp/octogeex_full_results.txt",
+      "bytes": 1827,
+      "sha256": "93dd9914563c30313f5298e1180c1965e737dca7c55cec73ac2d162ceb905658"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/cpp/octocoder_full_results.txt",
+      "source": "data/octopack/results/cpp/octocoder_full_results.txt",
+      "bytes": 1827,
+      "sha256": "3ebafb4d64b791d05e36bc595dd1110a02c08e924c446c8b71109d1935d6e1e2"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/cpp/octogeex_top0.1_lightgbm_full_result.txt",
+      "source": "data/octopack/results/cpp/octogeex_top0.1_lightgbm_full_result.txt",
+      "bytes": 203,
+      "sha256": "1f1f492338a0e764df1062719d2904c56f3a55038717c6652dd33c5d243eb7c1"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/cpp/octocoder_top0.1_lightgbm_full_result.txt",
+      "source": "data/octopack/results/cpp/octocoder_top0.1_lightgbm_full_result.txt",
+      "bytes": 203,
+      "sha256": "26ba6f34cdad8ba3a32391dc5aa001ab3c7e1881243fa9d9bac0bc123ae1da24"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/python/octogeex_full_results.txt",
+      "source": "data/octopack/results/python/octogeex_full_results.txt",
+      "bytes": 1827,
+      "sha256": "7e56c35ceaa1dd7436f7ac22f805f2a4af6093a0c4c71a58d7d27576a8372336"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/python/octocoder_synprune_result.txt",
+      "source": "data/octopack/results/python/octocoder_synprune_result.txt",
+      "bytes": 526,
+      "sha256": "e28064854d18a7528b2e74bf9179fc1a4665e02b490b1407938b7dc664d89924"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/python/octogeex_synprune_result.txt",
+      "source": "data/octopack/results/python/octogeex_synprune_result.txt",
+      "bytes": 437,
+      "sha256": "2111f218b7338d5231a7c1d6e8db7623a39f7e104513d87379c94d22e8c72fd5"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/python/octocoder_full_results.txt",
+      "source": "data/octopack/results/python/octocoder_full_results.txt",
+      "bytes": 1827,
+      "sha256": "201365504134ecedc9cead350b899b0f952ce3b65bccbac261bdacbcd04cb6b4"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/python/octogeex_top0.1_lightgbm_full_result.txt",
+      "source": "data/octopack/results/python/octogeex_top0.1_lightgbm_full_result.txt",
+      "bytes": 203,
+      "sha256": "edb3eec0fe03bebe5730adf03cf61e6a9a958e45091fbc4cc6c5b3c5a1cfb8a9"
+    },
+    {
+      "path": "results/legacy/clone/octopack/results/python/octocoder_top0.1_lightgbm_full_result.txt",
+      "source": "data/octopack/results/python/octocoder_top0.1_lightgbm_full_result.txt",
+      "bytes": 207,
+      "sha256": "30f1f760d282df1ad2bf2a1db59e7971573e509c7f57c6473c06773df8798629"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/cpp/OpenCoder-1.5B-Instruct_top0.1_lightgbm_full_result.txt",
+      "source": "data/opencoder/results/cpp/OpenCoder-1.5B-Instruct_top0.1_lightgbm_full_result.txt",
+      "bytes": 208,
+      "sha256": "c454327bb7356f2a7c964167f784cd17eb4f5d51e62984430154f186056ee14a"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/cpp/OpenCoder-1.5B-Instruct_full_results.txt",
+      "source": "data/opencoder/results/cpp/OpenCoder-1.5B-Instruct_full_results.txt",
+      "bytes": 1831,
+      "sha256": "4f8c02ed3a03621f307b84ac1304a429170b434b8490bc7c1c30698e0272f9e5"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/cpp/OpenCoder-8B-Instruct_full_results.txt",
+      "source": "data/opencoder/results/cpp/OpenCoder-8B-Instruct_full_results.txt",
+      "bytes": 1830,
+      "sha256": "86bd3dbd4c70d04f5213aa6aae1c54c978102a489c5ab91df2403b8ec49c7b2f"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/cpp/OpenCoder-8B-Instruct_top0.1_lightgbm_full_result.txt",
+      "source": "data/opencoder/results/cpp/OpenCoder-8B-Instruct_top0.1_lightgbm_full_result.txt",
+      "bytes": 208,
+      "sha256": "7d43c2b64c78466526b3d25062e67469e849fd9756c3252713ae6eee008d933f"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/python/OpenCoder-8B-Instruct_synprune_result.txt",
+      "source": "data/opencoder/results/python/OpenCoder-8B-Instruct_synprune_result.txt",
+      "bytes": 437,
+      "sha256": "a206aaf93bffdface456bc54737350f53f3deb329c37aee21e24c8bad07ce731"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/python/OpenCoder-1.5B-Instruct_synprune_result.txt",
+      "source": "data/opencoder/results/python/OpenCoder-1.5B-Instruct_synprune_result.txt",
+      "bytes": 437,
+      "sha256": "c1ed8219bc7d4fd6813159860c80dfbff857e61e06c976e465723e691c27d1f5"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/python/OpenCoder-1.5B-Instruct_top0.1_lightgbm_full_result.txt",
+      "source": "data/opencoder/results/python/OpenCoder-1.5B-Instruct_top0.1_lightgbm_full_result.txt",
+      "bytes": 208,
+      "sha256": "620c9f56f282b2b102403a9eeba718136f877e9237090aab947382ca60b9ee21"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/python/OpenCoder-1.5B-Instruct_full_results.txt",
+      "source": "data/opencoder/results/python/OpenCoder-1.5B-Instruct_full_results.txt",
+      "bytes": 1838,
+      "sha256": "26760833466d65bee3f3e49cbac3779506c9db6058020d737bd9b0295fccf262"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/python/OpenCoder-8B-Instruct_full_results.txt",
+      "source": "data/opencoder/results/python/OpenCoder-8B-Instruct_full_results.txt",
+      "bytes": 1835,
+      "sha256": "90599d92351b7bb0d7c34820cfdfb51dbe4b9e78c766b426af07d7bf42fb2ca8"
+    },
+    {
+      "path": "results/legacy/clone/opencoder/results/python/OpenCoder-8B-Instruct_top0.1_lightgbm_full_result.txt",
+      "source": "data/opencoder/results/python/OpenCoder-8B-Instruct_top0.1_lightgbm_full_result.txt",
+      "bytes": 208,
+      "sha256": "4256fe18af46294eff0305a90581bac933c4813240df81b63f131f98e9f93beb"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/cpp/Magicoder-CL-7B_top0.1_lightgbm_full_result.txt",
+      "source": "data/magicoder/results/cpp/Magicoder-CL-7B_top0.1_lightgbm_full_result.txt",
+      "bytes": 208,
+      "sha256": "14673b0eec40c79af20c499a1b4b2b072ab60be520d219f53d02874c13dd6a60"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/cpp/Magicoder-DS-6.7B_top0.1_lightgbm_full_result.txt",
+      "source": "data/magicoder/results/cpp/Magicoder-DS-6.7B_top0.1_lightgbm_full_result.txt",
+      "bytes": 208,
+      "sha256": "f69ec0a12e42226d306cb35cedf4b7651d7ec6455b093ad3e50801bd8ae14404"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/cpp/Magicoder-DS-6.7B_full_results.txt",
+      "source": "data/magicoder/results/cpp/Magicoder-DS-6.7B_full_results.txt",
+      "bytes": 1827,
+      "sha256": "aaba9fb46864026ab5ce651196e9122d9252ef7414b4273ac0bb0f9b8dc86cde"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/cpp/Magicoder-CL-7B_full_results.txt",
+      "source": "data/magicoder/results/cpp/Magicoder-CL-7B_full_results.txt",
+      "bytes": 1827,
+      "sha256": "7061c300a12ff54384bb113cdaf58e40700bdf67ce1eba921e09caaecfb349c4"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/python/Magicoder-CL-7B_top0.1_lightgbm_full_result.txt",
+      "source": "data/magicoder/results/python/Magicoder-CL-7B_top0.1_lightgbm_full_result.txt",
+      "bytes": 208,
+      "sha256": "b6a9f186127d3a33084b8a5573edce092bcadb3b96d3ab5c492ade1e75c9c841"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/python/Magicoder-DS-6.7B_top0.1_lightgbm_full_result.txt",
+      "source": "data/magicoder/results/python/Magicoder-DS-6.7B_top0.1_lightgbm_full_result.txt",
+      "bytes": 207,
+      "sha256": "fbb754d2e8dbb05788035daac77da17128a1e4c2acea4d1d84608f625ee14fb6"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/python/Magicoder-DS-6.7B_synprune_result.txt",
+      "source": "data/magicoder/results/python/Magicoder-DS-6.7B_synprune_result.txt",
+      "bytes": 437,
+      "sha256": "b05f2e517026eda5654c0f5633f16e9640ba498210bb42537c521378b5e6dd3b"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/python/Magicoder-DS-6.7B_full_results.txt",
+      "source": "data/magicoder/results/python/Magicoder-DS-6.7B_full_results.txt",
+      "bytes": 1827,
+      "sha256": "e4e05d39a5c959bcd7d4d1c78608b16711630a3e953b18f87a493f2fa8a9b65b"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/python/Magicoder-CL-7B_full_results.txt",
+      "source": "data/magicoder/results/python/Magicoder-CL-7B_full_results.txt",
+      "bytes": 1829,
+      "sha256": "9af3133cedc69cd9936cd5212f9537d3cf56c4fc3808ca1f9538cc10e1574d2b"
+    },
+    {
+      "path": "results/legacy/clone/magicoder/results/python/Magicoder-CL-7B_synprune_result.txt",
+      "source": "data/magicoder/results/python/Magicoder-CL-7B_synprune_result.txt",
+      "bytes": 439,
+      "sha256": "7ceeff64ff8965359a44581a6dcd9369338ed1f64093eb4bb68acd373e219a90"
+    }
+  ]
+}

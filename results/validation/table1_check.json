@@ -1,0 +1,1739 @@
+{
+  "scope": "Table 1 only, starcoderbase; two languages, four code groups, AUC/ACC/TPR@1%.",
+  "paper": {
+    "path": "paper.pdf",
+    "sha256": "1f95c0ab9c705e850368b080d52897bd1c769aa87a48eacddeb7c5cbbbb7d21d",
+    "page": 7,
+    "table": 1
+  },
+  "verdict": "Structure and AUC/ACC approximately match; some low-FPR TPR entries and paper macro averages differ.",
+  "paper_ours": {
+    "python": [
+      [
+        76.5,
+        70.7,
+        1.6
+      ],
+      [
+        74.6,
+        68.2,
+        1.9
+      ],
+      [
+        74.6,
+        68.4,
+        1.4
+      ],
+      [
+        73.6,
+        68.4,
+        2.4
+      ],
+      [
+        74.8,
+        68.3,
+        2.0
+      ]
+    ],
+    "cpp": [
+      [
+        73.7,
+        69.2,
+        6.8
+      ],
+      [
+        72.5,
+        67.4,
+        2.6
+      ],
+      [
+        72.3,
+        67.1,
+        2.9
+      ],
+      [
+        71.9,
+        67.1,
+        4.8
+      ],
+      [
+        72.8,
+        67.6,
+        2.6
+      ]
+    ]
+  },
+  "local_fresh_ours": {
+    "python": [
+      [
+        76.2996,
+        70.7,
+        1.6
+      ],
+      [
+        74.3161,
+        67.95,
+        3.1
+      ],
+      [
+        73.9362,
+        67.7,
+        2.6
+      ],
+      [
+        73.953,
+        69.4,
+        2.2
+      ],
+      [
+        74.6262,
+        68.9375,
+        2.375
+      ]
+    ],
+    "cpp": [
+      [
+        72.8468,
+        68.1,
+        2.2
+      ],
+      [
+        71.3998,
+        65.9667,
+        2.5333
+      ],
+      [
+        70.6688,
+        65.7,
+        3.6
+      ],
+      [
+        70.47,
+        65.0,
+        3.6
+      ],
+      [
+        71.3464,
+        66.1917,
+        2.9833
+      ]
+    ]
+  },
+  "group_order": [
+    "Original",
+    "Type-I",
+    "Type-II",
+    "Type-III",
+    "Macro Average"
+  ],
+  "metric_order": [
+    "AUC",
+    "ACC",
+    "TPR@1%"
+  ],
+  "fresh_ours_matches_retained_historical_results": true,
+  "baseline_historical_cells_checked": 225,
+  "baseline_max_absolute_delta_pp": 0.325,
+  "baseline_comparison": [
+    {
+      "language": "python",
+      "method": "PPL",
+      "group": "Original",
+      "paper": [
+        60.0,
+        58.1,
+        1.8
+      ],
+      "historical": [
+        59.9684,
+        58.1,
+        1.8
+      ],
+      "absolute_delta_pp": [
+        0.0316,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "PPL",
+      "group": "Type-I",
+      "paper": [
+        58.2,
+        56.5,
+        1.6
+      ],
+      "historical": [
+        58.2106,
+        56.5,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.0106,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "PPL",
+      "group": "Type-II",
+      "paper": [
+        57.2,
+        56.2,
+        2.2
+      ],
+      "historical": [
+        57.2238,
+        56.2,
+        2.2
+      ],
+      "absolute_delta_pp": [
+        0.0238,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "PPL",
+      "group": "Type-III",
+      "paper": [
+        58.5,
+        57.1,
+        1.8
+      ],
+      "historical": [
+        58.4606,
+        57.1,
+        1.8
+      ],
+      "absolute_delta_pp": [
+        0.0394,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "PPL",
+      "group": "Macro Average",
+      "paper": [
+        58.5,
+        57.0,
+        1.8
+      ],
+      "historical": [
+        58.4658,
+        56.975,
+        1.85
+      ],
+      "absolute_delta_pp": [
+        0.0342,
+        0.025,
+        0.05
+      ]
+    },
+    {
+      "language": "python",
+      "method": "zlib",
+      "group": "Original",
+      "paper": [
+        47.2,
+        50.4,
+        0.6
+      ],
+      "historical": [
+        47.2428,
+        50.4,
+        0.6
+      ],
+      "absolute_delta_pp": [
+        0.0428,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "zlib",
+      "group": "Type-I",
+      "paper": [
+        47.8,
+        50.8,
+        0.4
+      ],
+      "historical": [
+        47.7614,
+        50.8,
+        0.4
+      ],
+      "absolute_delta_pp": [
+        0.0386,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "zlib",
+      "group": "Type-II",
+      "paper": [
+        47.1,
+        50.7,
+        0.2
+      ],
+      "historical": [
+        47.103,
+        50.7,
+        0.2
+      ],
+      "absolute_delta_pp": [
+        0.003,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "zlib",
+      "group": "Type-III",
+      "paper": [
+        47.3,
+        51.2,
+        0
+      ],
+      "historical": [
+        47.2826,
+        51.2,
+        0.0
+      ],
+      "absolute_delta_pp": [
+        0.0174,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "zlib",
+      "group": "Macro Average",
+      "paper": [
+        47.3,
+        50.8,
+        0.3
+      ],
+      "historical": [
+        47.3475,
+        50.775,
+        0.3
+      ],
+      "absolute_delta_pp": [
+        0.0475,
+        0.025,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%",
+      "group": "Original",
+      "paper": [
+        61.6,
+        59.3,
+        1.6
+      ],
+      "historical": [
+        61.6216,
+        59.3,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.0216,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%",
+      "group": "Type-I",
+      "paper": [
+        60,
+        58,
+        1.2
+      ],
+      "historical": [
+        59.9658,
+        58.0,
+        1.2
+      ],
+      "absolute_delta_pp": [
+        0.0342,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%",
+      "group": "Type-II",
+      "paper": [
+        58.7,
+        57.5,
+        2
+      ],
+      "historical": [
+        58.6862,
+        57.5,
+        2.0
+      ],
+      "absolute_delta_pp": [
+        0.0138,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%",
+      "group": "Type-III",
+      "paper": [
+        60,
+        59,
+        1.6
+      ],
+      "historical": [
+        59.959,
+        59.0,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.041,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%",
+      "group": "Macro Average",
+      "paper": [
+        60.1,
+        58.5,
+        1.6
+      ],
+      "historical": [
+        60.0581,
+        58.45,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.0419,
+        0.05,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%",
+      "group": "Original",
+      "paper": [
+        60.7,
+        58.3,
+        1.8
+      ],
+      "historical": [
+        60.6944,
+        58.3,
+        1.8
+      ],
+      "absolute_delta_pp": [
+        0.0056,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%",
+      "group": "Type-I",
+      "paper": [
+        58.9,
+        56.5,
+        1.6
+      ],
+      "historical": [
+        58.8854,
+        56.5,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.0146,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%",
+      "group": "Type-II",
+      "paper": [
+        57.9,
+        57.1,
+        2.2
+      ],
+      "historical": [
+        57.9122,
+        57.1,
+        2.2
+      ],
+      "absolute_delta_pp": [
+        0.0122,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%",
+      "group": "Type-III",
+      "paper": [
+        59.1,
+        58.1,
+        1.8
+      ],
+      "historical": [
+        59.0646,
+        58.1,
+        1.8
+      ],
+      "absolute_delta_pp": [
+        0.0354,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%",
+      "group": "Macro Average",
+      "paper": [
+        59.1,
+        57.5,
+        1.8
+      ],
+      "historical": [
+        59.1391,
+        57.5,
+        1.85
+      ],
+      "absolute_delta_pp": [
+        0.0391,
+        0.0,
+        0.05
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%++",
+      "group": "Original",
+      "paper": [
+        56.8,
+        57.9,
+        1.4
+      ],
+      "historical": [
+        56.824,
+        57.9,
+        1.4
+      ],
+      "absolute_delta_pp": [
+        0.024,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%++",
+      "group": "Type-I",
+      "paper": [
+        57.2,
+        57.3,
+        1.4
+      ],
+      "historical": [
+        57.2114,
+        57.3,
+        1.4
+      ],
+      "absolute_delta_pp": [
+        0.0114,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%++",
+      "group": "Type-II",
+      "paper": [
+        54.4,
+        55,
+        1.6
+      ],
+      "historical": [
+        54.4238,
+        55.0,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.0238,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%++",
+      "group": "Type-III",
+      "paper": [
+        57.1,
+        56.5,
+        2
+      ],
+      "historical": [
+        57.109,
+        56.5,
+        2.0
+      ],
+      "absolute_delta_pp": [
+        0.009,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-10%++",
+      "group": "Macro Average",
+      "paper": [
+        56.4,
+        56.7,
+        1.6
+      ],
+      "historical": [
+        56.3921,
+        56.675,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.0079,
+        0.025,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%++",
+      "group": "Original",
+      "paper": [
+        57,
+        57.6,
+        1.4
+      ],
+      "historical": [
+        57.0424,
+        57.6,
+        1.4
+      ],
+      "absolute_delta_pp": [
+        0.0424,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%++",
+      "group": "Type-I",
+      "paper": [
+        57.3,
+        57.8,
+        1.4
+      ],
+      "historical": [
+        57.2674,
+        57.8,
+        1.4
+      ],
+      "absolute_delta_pp": [
+        0.0326,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%++",
+      "group": "Type-II",
+      "paper": [
+        54.9,
+        55.2,
+        1.4
+      ],
+      "historical": [
+        54.9262,
+        55.2,
+        1.4
+      ],
+      "absolute_delta_pp": [
+        0.0262,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%++",
+      "group": "Type-III",
+      "paper": [
+        57.5,
+        57.3,
+        2
+      ],
+      "historical": [
+        57.5338,
+        57.3,
+        2.0
+      ],
+      "absolute_delta_pp": [
+        0.0338,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Min-20%++",
+      "group": "Macro Average",
+      "paper": [
+        56.7,
+        57,
+        1.6
+      ],
+      "historical": [
+        56.6925,
+        56.975,
+        1.55
+      ],
+      "absolute_delta_pp": [
+        0.0075,
+        0.025,
+        0.05
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Recall",
+      "group": "Original",
+      "paper": [
+        67.2,
+        63.5,
+        3
+      ],
+      "historical": [
+        67.228,
+        63.5,
+        3.0
+      ],
+      "absolute_delta_pp": [
+        0.028,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Recall",
+      "group": "Type-I",
+      "paper": [
+        63.4,
+        60.6,
+        0.8
+      ],
+      "historical": [
+        63.3722,
+        60.6,
+        0.8
+      ],
+      "absolute_delta_pp": [
+        0.0278,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Recall",
+      "group": "Type-II",
+      "paper": [
+        60.9,
+        59.3,
+        0.6
+      ],
+      "historical": [
+        60.899,
+        59.3,
+        0.6
+      ],
+      "absolute_delta_pp": [
+        0.001,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Recall",
+      "group": "Type-III",
+      "paper": [
+        59.7,
+        58.2,
+        1
+      ],
+      "historical": [
+        59.739,
+        58.2,
+        1.0
+      ],
+      "absolute_delta_pp": [
+        0.039,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Recall",
+      "group": "Macro Average",
+      "paper": [
+        62.8,
+        60.4,
+        1.4
+      ],
+      "historical": [
+        62.8096,
+        60.4,
+        1.35
+      ],
+      "absolute_delta_pp": [
+        0.0096,
+        0.0,
+        0.05
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Synprune",
+      "group": "Original",
+      "paper": [
+        67,
+        63.4,
+        1.8
+      ],
+      "historical": [
+        66.994,
+        63.4,
+        1.8
+      ],
+      "absolute_delta_pp": [
+        0.006,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Synprune",
+      "group": "Type-I",
+      "paper": [
+        65.4,
+        62.5,
+        2.2
+      ],
+      "historical": [
+        65.3574,
+        62.5,
+        2.2
+      ],
+      "absolute_delta_pp": [
+        0.0426,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Synprune",
+      "group": "Type-II",
+      "paper": [
+        64.9,
+        63.7,
+        2
+      ],
+      "historical": [
+        64.8978,
+        63.7,
+        2.0
+      ],
+      "absolute_delta_pp": [
+        0.0022,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Synprune",
+      "group": "Type-III",
+      "paper": [
+        67.1,
+        64.1,
+        1.2
+      ],
+      "historical": [
+        67.0998,
+        64.1,
+        1.2
+      ],
+      "absolute_delta_pp": [
+        0.0002,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "python",
+      "method": "Synprune",
+      "group": "Macro Average",
+      "paper": [
+        66.1,
+        63.4,
+        1.8
+      ],
+      "historical": [
+        65.9192,
+        63.075,
+        2.1
+      ],
+      "absolute_delta_pp": [
+        0.1808,
+        0.325,
+        0.3
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "PPL",
+      "group": "Original",
+      "paper": [
+        53.1,
+        54.4,
+        3.4
+      ],
+      "historical": [
+        53.0768,
+        54.4,
+        3.4
+      ],
+      "absolute_delta_pp": [
+        0.0232,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "PPL",
+      "group": "Type-I",
+      "paper": [
+        51.1,
+        53.8,
+        4.4
+      ],
+      "historical": [
+        51.1244,
+        53.8,
+        4.4
+      ],
+      "absolute_delta_pp": [
+        0.0244,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "PPL",
+      "group": "Type-II",
+      "paper": [
+        50.7,
+        53.4,
+        3.6
+      ],
+      "historical": [
+        50.6666,
+        53.4,
+        3.6
+      ],
+      "absolute_delta_pp": [
+        0.0334,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "PPL",
+      "group": "Type-III",
+      "paper": [
+        49.5,
+        53.3,
+        3.4
+      ],
+      "historical": [
+        49.4548,
+        53.3,
+        3.4
+      ],
+      "absolute_delta_pp": [
+        0.0452,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "PPL",
+      "group": "Macro Average",
+      "paper": [
+        51.1,
+        53.7,
+        3.7
+      ],
+      "historical": [
+        51.0806,
+        53.725,
+        3.7
+      ],
+      "absolute_delta_pp": [
+        0.0194,
+        0.025,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "zlib",
+      "group": "Original",
+      "paper": [
+        38.6,
+        50.5,
+        1.2
+      ],
+      "historical": [
+        38.5696,
+        50.5,
+        1.2
+      ],
+      "absolute_delta_pp": [
+        0.0304,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "zlib",
+      "group": "Type-I",
+      "paper": [
+        39.1,
+        50.8,
+        2.2
+      ],
+      "historical": [
+        39.05,
+        50.8,
+        2.2
+      ],
+      "absolute_delta_pp": [
+        0.05,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "zlib",
+      "group": "Type-II",
+      "paper": [
+        39.2,
+        50.6,
+        1.8
+      ],
+      "historical": [
+        39.2146,
+        50.6,
+        1.8
+      ],
+      "absolute_delta_pp": [
+        0.0146,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "zlib",
+      "group": "Type-III",
+      "paper": [
+        38.1,
+        50.3,
+        1.2
+      ],
+      "historical": [
+        38.1464,
+        50.3,
+        1.2
+      ],
+      "absolute_delta_pp": [
+        0.0464,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "zlib",
+      "group": "Macro Average",
+      "paper": [
+        38.7,
+        50.6,
+        1.6
+      ],
+      "historical": [
+        38.7452,
+        50.55,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.0452,
+        0.05,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%",
+      "group": "Original",
+      "paper": [
+        55.2,
+        55.8,
+        3.4
+      ],
+      "historical": [
+        55.172,
+        55.8,
+        3.4
+      ],
+      "absolute_delta_pp": [
+        0.028,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%",
+      "group": "Type-I",
+      "paper": [
+        53.4,
+        53.9,
+        4.2
+      ],
+      "historical": [
+        53.386,
+        53.9,
+        4.2
+      ],
+      "absolute_delta_pp": [
+        0.014,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%",
+      "group": "Type-II",
+      "paper": [
+        52.2,
+        53.7,
+        3.6
+      ],
+      "historical": [
+        52.249,
+        53.7,
+        3.6
+      ],
+      "absolute_delta_pp": [
+        0.049,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%",
+      "group": "Type-III",
+      "paper": [
+        50.9,
+        53.5,
+        2.8
+      ],
+      "historical": [
+        50.8712,
+        53.5,
+        2.8
+      ],
+      "absolute_delta_pp": [
+        0.0288,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%",
+      "group": "Macro Average",
+      "paper": [
+        52.9,
+        54.2,
+        3.5
+      ],
+      "historical": [
+        52.9196,
+        54.225,
+        3.5
+      ],
+      "absolute_delta_pp": [
+        0.0196,
+        0.025,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%",
+      "group": "Original",
+      "paper": [
+        53.9,
+        54.6,
+        3.4
+      ],
+      "historical": [
+        53.906,
+        54.6,
+        3.4
+      ],
+      "absolute_delta_pp": [
+        0.006,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%",
+      "group": "Type-I",
+      "paper": [
+        52,
+        53.7,
+        4.4
+      ],
+      "historical": [
+        52.0224,
+        53.7,
+        4.4
+      ],
+      "absolute_delta_pp": [
+        0.0224,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%",
+      "group": "Type-II",
+      "paper": [
+        51.2,
+        53.7,
+        3.6
+      ],
+      "historical": [
+        51.2226,
+        53.7,
+        3.6
+      ],
+      "absolute_delta_pp": [
+        0.0226,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%",
+      "group": "Type-III",
+      "paper": [
+        49.9,
+        53,
+        3.4
+      ],
+      "historical": [
+        49.888,
+        53.0,
+        3.4
+      ],
+      "absolute_delta_pp": [
+        0.012,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%",
+      "group": "Macro Average",
+      "paper": [
+        51.8,
+        53.8,
+        3.7
+      ],
+      "historical": [
+        51.7598,
+        53.75,
+        3.7
+      ],
+      "absolute_delta_pp": [
+        0.0402,
+        0.05,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%++",
+      "group": "Original",
+      "paper": [
+        53.7,
+        53.9,
+        2.4
+      ],
+      "historical": [
+        53.6892,
+        53.9,
+        2.4
+      ],
+      "absolute_delta_pp": [
+        0.0108,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%++",
+      "group": "Type-I",
+      "paper": [
+        55.3,
+        55.3,
+        3.4
+      ],
+      "historical": [
+        55.2708,
+        55.3,
+        3.4
+      ],
+      "absolute_delta_pp": [
+        0.0292,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%++",
+      "group": "Type-II",
+      "paper": [
+        51.5,
+        53.6,
+        4.8
+      ],
+      "historical": [
+        51.5226,
+        53.6,
+        4.8
+      ],
+      "absolute_delta_pp": [
+        0.0226,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%++",
+      "group": "Type-III",
+      "paper": [
+        51.2,
+        53.8,
+        3.2
+      ],
+      "historical": [
+        51.2472,
+        53.8,
+        3.2
+      ],
+      "absolute_delta_pp": [
+        0.0472,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-10%++",
+      "group": "Macro Average",
+      "paper": [
+        52.9,
+        54.1,
+        3.5
+      ],
+      "historical": [
+        52.9324,
+        54.15,
+        3.45
+      ],
+      "absolute_delta_pp": [
+        0.0324,
+        0.05,
+        0.05
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%++",
+      "group": "Original",
+      "paper": [
+        53.4,
+        54,
+        2.4
+      ],
+      "historical": [
+        53.4016,
+        54.0,
+        2.4
+      ],
+      "absolute_delta_pp": [
+        0.0016,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%++",
+      "group": "Type-I",
+      "paper": [
+        54.3,
+        54.8,
+        3.2
+      ],
+      "historical": [
+        54.3452,
+        54.8,
+        3.2
+      ],
+      "absolute_delta_pp": [
+        0.0452,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%++",
+      "group": "Type-II",
+      "paper": [
+        51,
+        53.4,
+        4.8
+      ],
+      "historical": [
+        50.9698,
+        53.4,
+        4.8
+      ],
+      "absolute_delta_pp": [
+        0.0302,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%++",
+      "group": "Type-III",
+      "paper": [
+        50.4,
+        53.9,
+        3.2
+      ],
+      "historical": [
+        50.4192,
+        53.9,
+        3.2
+      ],
+      "absolute_delta_pp": [
+        0.0192,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Min-20%++",
+      "group": "Macro Average",
+      "paper": [
+        52.3,
+        54,
+        3.4
+      ],
+      "historical": [
+        52.284,
+        54.025,
+        3.4
+      ],
+      "absolute_delta_pp": [
+        0.016,
+        0.025,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Recall",
+      "group": "Original",
+      "paper": [
+        68.4,
+        63.9,
+        7
+      ],
+      "historical": [
+        68.41,
+        63.9,
+        7.0
+      ],
+      "absolute_delta_pp": [
+        0.01,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Recall",
+      "group": "Type-I",
+      "paper": [
+        67.9,
+        64.3,
+        4.4
+      ],
+      "historical": [
+        67.888,
+        64.3,
+        4.4
+      ],
+      "absolute_delta_pp": [
+        0.012,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Recall",
+      "group": "Type-II",
+      "paper": [
+        66.6,
+        62.3,
+        1.6
+      ],
+      "historical": [
+        66.6374,
+        62.3,
+        1.6
+      ],
+      "absolute_delta_pp": [
+        0.0374,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Recall",
+      "group": "Type-III",
+      "paper": [
+        64.8,
+        61.6,
+        2.4
+      ],
+      "historical": [
+        64.778,
+        61.6,
+        2.4
+      ],
+      "absolute_delta_pp": [
+        0.022,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "language": "cpp",
+      "method": "Recall",
+      "group": "Macro Average",
+      "paper": [
+        66.9,
+        63,
+        3.9
+      ],
+      "historical": [
+        66.9284,
+        63.025,
+        3.85
+      ],
+      "absolute_delta_pp": [
+        0.0284,
+        0.025,
+        0.05
+      ]
+    }
+  ],
+  "gpu_baselines_rerun": false,
+  "fit_protocol": {
+    "training_rows": 1000,
+    "evaluation_rows": 4000,
+    "rows_per_evaluation_group": 1000,
+    "seed": 42,
+    "max_boosting_rounds": 500,
+    "early_stopping_rounds": 50,
+    "fresh_fits": 2,
+    "cached_features": true
+  },
+  "known_differences": [
+    "Main classifier performs one seed-42 fit, while the paper describes three repetitions.",
+    "The evaluation set is also used for early stopping, as in the supplied source.",
+    "TPR uses strict FPR < 0.01. ACC is the maximum balanced accuracy over ROC thresholds.",
+    "The paper macro averages are not all the arithmetic mean of their printed group cells.",
+    "GPU baseline scoring is retained and has not been rerun; baseline comparison uses historical files."
+  ],
+  "entrypoint_changes": [
+    "Baseline launcher now uses clone validation data and group-wise macro metrics rather than auxiliary-study data.",
+    "Feature extraction processes all rows and writes separate output features instead of the exploratory 500-row sampling path."
+  ],
+  "scoring_function_checks": [
+    {
+      "file": "src/trainer/lightgbm_train.py",
+      "function": "get_model",
+      "unchanged": true
+    },
+    {
+      "file": "src/trainer/lightgbm_train.py",
+      "function": "get_metrics",
+      "unchanged": true
+    },
+    {
+      "file": "src/trainer/lightgbm_train.py",
+      "function": "test_lightgbm",
+      "unchanged": true
+    },
+    {
+      "file": "src/trainer/extract_features.py",
+      "function": "token_probability_parse",
+      "unchanged": true
+    },
+    {
+      "file": "src/trainer/extract_features.py",
+      "function": "bind",
+      "unchanged": true
+    },
+    {
+      "file": "src/trainer/extract_features.py",
+      "function": "get_code_features",
+      "unchanged": true
+    },
+    {
+      "file": "src/methods/eval.py",
+      "function": "get_all_prob",
+      "unchanged": true
+    },
+    {
+      "file": "src/methods/eval.py",
+      "function": "get_ll",
+      "unchanged": true
+    },
+    {
+      "file": "src/methods/eval.py",
+      "function": "get_conditional_ll",
+      "unchanged": true
+    },
+    {
+      "file": "src/methods/eval.py",
+      "function": "predict",
+      "unchanged": true
+    },
+    {
+      "file": "src/methods/eval.py",
+      "function": "calculate",
+      "unchanged": true
+    },
+    {
+      "file": "src/methods/eval_synprune.py",
+      "function": "get_metrics",
+      "unchanged": true
+    },
+    {
+      "file": "src/methods/eval_synprune.py",
+      "function": "eval",
+      "unchanged": true
+    },
+    {
+      "file": "src/methods/eval_synprune.py",
+      "function": "calculate",
+      "unchanged": true
+    }
+  ],
+  "cleanup_validation": {
+    "jsonl_datasets_with_row_order_and_non_code_fields_unchanged": 32,
+    "numeric_cache_files_hash_verified": 32,
+    "post_cleanup_classifier_fits_match_pre_cleanup": true,
+    "unit_tests_passed": 7
+  }
+}

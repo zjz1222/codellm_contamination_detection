@@ -1,0 +1,41 @@
+{
+  "families": {
+    "magicoder": {
+      "Magicoder-CL-7B": "ise-uiuc/Magicoder-CL-7B",
+      "Magicoder-DS-6.7B": "ise-uiuc/Magicoder-DS-6.7B"
+    },
+    "octopack": {
+      "octocoder": "bigcode/octocoder",
+      "octogeex": "bigcode/octogeex"
+    },
+    "opencoder": {
+      "OpenCoder-1.5B-Instruct": "infly/OpenCoder-1.5B-Instruct",
+      "OpenCoder-8B-Instruct": "infly/OpenCoder-8B-Instruct"
+    },
+    "starcoder": {
+      "starcoderbase": "bigcode/starcoderbase",
+      "starcoderbase-7b": "bigcode/starcoderbase-7b"
+    }
+  },
+  "languages": [
+    "python",
+    "cpp"
+  ],
+  "context_length": {
+    "default": 8192,
+    "OpenCoder-1.5B-Instruct": 4096,
+    "starcoderbase": 4096,
+    "octocoder": 4096
+  },
+  "dataset_ids": {
+    "magicoder": "ise-uiuc/Magicoder-OSS-Instruct-75K",
+    "octopack": "bigcode/commitpackft",
+    "opencoder": "OpenCoder-LLM/opencoder-sft-stage1",
+    "starcoder": "bigcode/starcoderdata"
+  },
+  "opencoder_configs": [
+    "realuser_instruct",
+    "filtered_infinity_instruct",
+    "largescale_diverse_instruct"
+  ]
+}

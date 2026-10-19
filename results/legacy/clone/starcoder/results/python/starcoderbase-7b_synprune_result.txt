@@ -1,0 +1,24 @@
+======== original ========
+method,auc,accuracy,tpr01
+synprune,62.8341%,60.4481%,5.4000%
+
+======== Type I ========
+method,auc,accuracy,tpr01
+synprune,61.5996%,59.9000%,4.6000%
+
+======== Type II ========
+method,auc,accuracy,tpr01
+synprune,64.0356%,62.6000%,2.0000%
+
+======== Type_III ========
+method,auc,accuracy,tpr01
+synprune,65.1700%,61.9000%,1.4000%
+
+======== Type_III ========
+method,auc,accuracy,tpr01
+synprune,63.3381%,60.7874%,4.0500%
+
+======== original ========
+method,auc,accuracy,tpr01
+synprune,62.8341%,60.4481%,5.4000%
+

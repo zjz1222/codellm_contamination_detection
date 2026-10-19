@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper in Findings of EMNLP 2026."
+type: software
+title: "CodeMIA: Syntax-Aware Detection of Training Data Contamination in Code LLMs"
+authors:
+  - name: "Anonymous contributors"
+url: "https://openreview.net/forum?id=oTuiIJUzzv"
+repository-code: "https://github.com/zjz1222/codellm_contamination_detection"

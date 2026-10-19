@@ -1,0 +1,19 @@
+{
+  "paper_sha256": "1f95c0ab9c705e850368b080d52897bd1c769aa87a48eacddeb7c5cbbbb7d21d",
+  "paper_reference": "paper.pdf (original, unchanged; exempt from anonymization)",
+  "scope": "Main clone-detection experiment; eight models, two languages, four code groups.",
+  "removed_file_count": 334,
+  "replacements": {
+    "private_home": 914,
+    "copyright_identity": 1258,
+    "email": 2018,
+    "author": 281,
+    "credential_assignment": 1934,
+    "credential": 35
+  },
+  "numeric_feature_caches_changed": false,
+  "removed_source_file_count": 43,
+  "removed_intermediate_data_files": 32,
+  "original_groups_retained_in_clone_files": true,
+  "sanitized_data_files_during_cleanup": 60
+}
